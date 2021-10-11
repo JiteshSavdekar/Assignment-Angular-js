@@ -1,0 +1,33 @@
+.u{
+background-color: blue;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  color: white;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+.center{
+  text-align: center;
+  color: white;
+}
